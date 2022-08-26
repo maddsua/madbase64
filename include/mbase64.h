@@ -1,5 +1,5 @@
 //	Base64 encoder/decoder
-//	2022 maddsua | https://gitlab.com/maddsua
+//	2022 maddsua | https://github.com/maddsua
 //
 //	So, this could be one of the fastest base64 enc/decoder implementation. Or it's the dumbest one. Need your feedback to tell
 
@@ -138,7 +138,7 @@ uint8_t* mad_b64Dec(const char* baseString, size_t* decodedLen) {
 		memset(decoded, 0, decdSize);
 		
 		
-	//	even more high-speed loop if comparing to encoding function. lightning fast. 50mb/s. well, it could be not very precise, but heyyyy
+	//	even more high-speed loop if comparing to encoding function
 	size_t blpos = 0;
 	for(size_t i = 0; i < encLen; i++){
 	
@@ -151,7 +151,7 @@ uint8_t* mad_b64Dec(const char* baseString, size_t* decodedLen) {
 		blpos += 3;
 	}
 	
-	//	return decoded size if provided variable-pointer is not a null pointer
+	//	return decoded size if provided variable-pointer is not a null one
 	if(decodedLen != NULL) *decodedLen = decdLen;
 	
 	free(encoded);
