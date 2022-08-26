@@ -1,4 +1,4 @@
-//	Base64 encoder/decoder
+//	Base64 encoder/decoder v1.0
 //	2022 maddsua | https://github.com/maddsua
 //
 //	So, this could be one of the fastest base64 enc/decoder implementation. Or it's the dumbest one. Need your feedback to tell
