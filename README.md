@@ -1,19 +1,15 @@
 # madbase64
 ## A Lightning-fast singe-header base64 encoder/decoder written in C
 
----
-
-### It could be one of the fastest base64 enc/decoder implementation. Or it's the dumbest one. Need your feedback to tell!
-
----
-
 **The purpose:**
 
-Encoding/decoding large size binary data
+Encoding/decoding large sizes binary data. Yes, binary. I mean files, images and actually anything
 
 **Why?**
 
-Stackoverflow solutions are just garbage. No, really. Just look at that endless std::string pushbacks and countless temp buffers
+Stackoverflow solutions are just garbage. No, really. Just look at that endless std::string pushbacks and countless temp buffers.
+
+It could be one of the fastest base64 enc/decoder implementation. Or it's the dumbest one. Need your feedback to tell!
 
 **Pros**
 - Achieves speeds over 100 MB/s at a single thred of AMD Ryzen 3600
