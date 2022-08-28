@@ -35,6 +35,6 @@ Done with no errors
 
 ---
 
-[The header file you're looking for](include/mbase64.h)
+[👉 The header file you're looking for](include/mbase64.h)
 
-[Usage demo](demo/demo.c) / [.exe file](demo/demo.exe.gz)
+[👉 Usage demo](demo/demo.c) / [.exe file](demo/demo.exe.gz)
