@@ -9,7 +9,7 @@ Encoding/decoding large sizes binary data. Yes, binary. I mean files, images and
 
 Stackoverflow solutions are just garbage. No, really. Just look at that endless std::string pushbacks and countless temp buffers.
 
-It could be one of the fastest base64 enc/decoder implementation. Or it's the dumbest one. Need your feedback to tell!
+This one could be one of the fastest base64 enc/decoder implementation. Or it's the dumbest one. Need your feedback to tell!
 
 **Pros**
 - 🚀 Achieves speeds over 100 MB/s at a single thred of AMD Ryzen 3600
