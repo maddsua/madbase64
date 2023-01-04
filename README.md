@@ -1,7 +1,9 @@
 # madbase64
 ## A Lightning-fast singe-header base64 encoder/decoder written in C
 
-**The purpose:**
+## New versions (C++) [moved here](https://github.com/maddsua/lambda/blob/main/src/base64.cpp)
+
+## The purpose:
 
 Encoding/decoding large sizes binary data. Yes, binary. I mean files, images and actually anything
 
